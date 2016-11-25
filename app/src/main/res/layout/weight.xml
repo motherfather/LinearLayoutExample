@@ -10,17 +10,17 @@
 	    android:layout_height="wrap_content"
 	    android:background="#ffffffff"
 	    >
-		<TextView  
+		<TextView
 			android:id="@+id/button01"
-		    android:layout_width="wrap_content" 
-		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
 		    android:background="#ffffff00"
 		    android:text="텍스트"
 		    android:textColor="#ffff0000"
 		    android:textSize="16dp"
 		    android:layout_weight="1"
 		    />
-		<TextView  
+		<TextView
 			android:id="@+id/button02"
 		    android:layout_width="wrap_content" 
 		    android:layout_height="wrap_content" 
@@ -46,7 +46,7 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:background="#ffffffff">
-		<Button  
+		<Button
 			android:id="@+id/button04"
 		    android:layout_width="wrap_content" 
 		    android:layout_height="wrap_content" 
@@ -54,7 +54,7 @@
 		    android:text="텍스트"
 		    android:textColor="#ffff0000"
 		    android:textSize="24dp"
-		    android:layout_weight="2"
+		    android:layout_weight="1"
 		    />
 		<Button  
 			android:id="@+id/button05"
@@ -66,5 +66,15 @@
 		    android:textSize="24dp"
 		    android:layout_weight="1"
 		    />
+		<Button
+			android:id="@+id/button06"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#ffff88ff"
+			android:text="텍스트"
+			android:textColor="#ffff00ff"
+			android:textSize="24dp"
+			android:layout_weight="1"
+			/>
 	</LinearLayout>
 </LinearLayout>

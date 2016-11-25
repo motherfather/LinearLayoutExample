@@ -101,5 +101,7 @@
 		android:textStyle="bold"
 		android:onClick="onButton9Clicked"
 		/>
+	<!-- android:onClick="onButton9Clicked" -->
+	<!-- 이런 방법도 있는데 그닥 추천하지 않음 -->
 
 </LinearLayout>
